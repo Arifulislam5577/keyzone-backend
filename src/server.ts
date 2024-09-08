@@ -29,18 +29,3 @@ async function startServer() {
 }
 
 startServer()
-
-// const seedProducts = async () => {
-//   try {
-//     await Product.deleteMany()
-//     console.log('Product deleted')
-//     await Product.insertMany(productData)
-//     console.log('Product added')
-//     process.exit()
-//   } catch (error) {
-//     console.log(error)
-//     process.exit(1)
-//   }
-// }
-
-// seedProducts()
