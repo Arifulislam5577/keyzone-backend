@@ -6,7 +6,7 @@ import productRouter from './modules/product/product.route'
 
 const app: Application = express()
 
-app.use(cors({ origin: 'http://localhost:5173' }))
+app.use(cors({ origin: 'https://keyzone-frontend.vercel.app/' }))
 
 app.use(express.json({ limit: '50mb' }))
 app.use(express.urlencoded({ limit: '50mb', extended: true }))
